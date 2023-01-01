@@ -6,7 +6,6 @@ export default function Nav() {
   return (
     <div className='navContainer'>
       <Link to="/home">Home</Link>
-      <Link to="/products/:id">Products</Link>
       <Link to="/login">Login</Link>
       {/* <Link */}
     </div>

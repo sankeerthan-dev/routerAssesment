@@ -53,3 +53,23 @@
   width: 25%;
   height: 20vh;
 }
+
+.cardBox{
+  padding: 30px;
+  text-align: center;
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+}
+
+.cardWrapper{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+}
+
+.cardWrapper img{
+  height: 200px;
+  width:200px;
+}

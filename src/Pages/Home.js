@@ -2,6 +2,7 @@ import axios from 'axios'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {useState, useEffect} from 'react'
+// import App from '../App'
 import '../App.css'
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
                <div className='cardBox'>
                     <img src={item.image} alt=""></img><br/>
                     <h1>$ {item.price}</h1>
-                    <Link to={'/product/'+item.id}>{item.title}</Link>
+                    <Link to={"/products/" +item.id}>{item.title}</Link>
                </div> 
             ))
         }

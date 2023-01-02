@@ -73,3 +73,20 @@
   height: 200px;
   width:200px;
 }
+
+.detailedDisplay{
+  text-align: center;
+}
+.detailedDisplay img{
+  height: 200px;
+  width:200px;
+}
+
+.detailedDisplay table{
+  width: 70%;
+  margin: auto;
+}
+
+.detailedDisplay td, .detailedDisplay th{
+  border: 1px solid black;
+}
